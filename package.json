@@ -1,0 +1,40 @@
+{
+  "name": "wolfie-bot",
+  "version": "1.0.0",
+  "description": "A discord bot named Wolfie",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "devStart": "nodemon bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StinkyBenji/discord-fun-bot.git"
+  },
+  "keywords": [
+    "bot",
+    "fun",
+    "discord"
+  ],
+  "author": "StinkyBenji",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/StinkyBenji/discord-fun-bot/issues"
+  },
+  "homepage": "https://github.com/StinkyBenji/discord-fun-bot#readme",
+  "dependencies": {
+    "common-tags": "^1.8.0",
+    "discord.js": "^12.5.1",
+    "dotenv": "^8.2.0",
+    "eslint": "^7.21.0",
+    "fs": "^0.0.1-security",
+    "got": "^9.6.0",
+    "node-fetch": "^2.6.1",
+    "nodemon": "^2.0.7",
+    "winston": "^3.3.3",
+    "yaml": "^1.10.0",
+    "yt-search": "^2.7.3",
+    "ytdl-core": "^4.5.0",
+    "ytdl-core-discord": "^1.2.5"
+  }
+}
