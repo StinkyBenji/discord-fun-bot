@@ -109,7 +109,6 @@ class Command {
       message.channel.permissionsFor(message.guild.me).missing(this.clientPermissions).map(p => permissions[p]);
     if (missingPermissions.length !== 0) {
       const embed = new MessageEmbed()
-        .setAuthor(`${this.client.user.tag}`, message.client.user.displayAvatarURL({ dynamic: true }))
         .setTitle(`${fail} Missing Bot Permissions: \`${this.name}\``)
         .setDescription(`\`\`\`diff\n${missingPermissions.map(p => `- ${p}`).join('\n')}\`\`\``)
         .setTimestamp()

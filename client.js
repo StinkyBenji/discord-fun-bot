@@ -18,7 +18,7 @@ class Client extends Discord.Client {
     this.types = {
       INFO: 'info',
       FUN: 'fun',
-      COLOR: 'color'
+      // MUSIC: 'music'
     };
     /** all availabel commands */
     this.commands = new Discord.Collection();
