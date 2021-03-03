@@ -57,7 +57,6 @@ module.exports = class HelpCommand extends Command {
         .setFooter(`To get info of each command please type: ${prefix}help [command]`)
       
       for (const type of Object.values(message.client.types)) {
-        if (!message.client.isOwner(message.member)) continue;
         embed.addField(`Command Type ${type}`, `Available commands: ${commands[type]}`);
       }
     }
