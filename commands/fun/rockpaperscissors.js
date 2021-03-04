@@ -6,7 +6,8 @@ const res = ['Scissors :v:','Rock :fist:', 'Paper :raised_hand:'];
 module.exports = class RockPaperScissorsCommand extends Command {
   constructor(client) {
     super(client, {
-      name: 'rps',
+      name: 'rockpaperscissors',
+      aliases: ['rps'],
       usage: 'rps <rock | paper | scissors>',
       description: 'Play a game of rock–paper–scissors against Wolfie!',
       type: client.types.FUN,

@@ -1,5 +1,4 @@
 const { MessageEmbed } = require('discord.js');
-const { oneLine } = require('common-tags');
 const config = require('../config.json');
 
 module.exports = (client, message) => {
